@@ -2,8 +2,10 @@ import { MusicPlayer } from "@/components/MusicPlayer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50 p-16">
-      <MusicPlayer />
-    </div>
+    <main className="min-h-screen bg-[#05070C] px-6 py-12">
+      <div className="mx-auto max-w-5xl">
+        <MusicPlayer />
+      </div>
+    </main>
   );
 }
